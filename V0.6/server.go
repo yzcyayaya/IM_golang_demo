@@ -33,7 +33,7 @@ func NewServer(ip string, port int) *Server {
 
 //广播消息
 func (s *Server) BroadCast(user *User, msg string) {
-	sendMes := "[" + user.Name + "]" + user.Addr + ":" + msg
+	sendMes := "[" + user.Addr + "]" + user.Name + ":" + msg
 	s.Message <- sendMes
 }
 
