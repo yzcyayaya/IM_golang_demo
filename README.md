@@ -42,4 +42,8 @@
 
   > ​    略,,,本人没macOS
 
+<<<<<<< HEAD
 学习资料来自B站UP主[https://www.bilibili.com/video/BV1gf4y1r79E](八小时学习golang)
+=======
+学习资料来自B站UP主[https://www.bilibili.com/video/BV1gf4y1r79E](八小时学习golang)
+>>>>>>> 8e2a6ee (新增私聊功能)
